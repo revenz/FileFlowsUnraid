@@ -47,7 +47,7 @@ You can setup rules like when a video file is detected, detect if it has black b
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8585</HostPort>
+        <HostPort>5000</HostPort>
         <ContainerPort>5000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -88,7 +88,7 @@ You can setup rules like when a video file is detected, detect if it has black b
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="WebUI" Target="5000" Default="8585" Mode="tcp" Description="Container Port: 8888" Type="Port" Display="always" Required="false" Mask="false">8585</Config>
+  <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="Port used to access the WebUI.  The container uses port 5000 this can forward any port to that in the container." Type="Port" Display="always" Required="false" Mask="false">8585</Config>
   <Config Name="Data" Target="/app/Data" Default="/mnt/user/appdata/fileflows/data" Mode="rw" Description="Location of the database file, best to set this in appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fileflows/data</Config>
   <Config Name="Logs" Target="/app/Logs" Default="/mnt/user/appdata/fileflows/logs" Mode="rw" Description="logging directory, best to store this with the appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fileflows/logs</Config>
   <Config Name="Temp Directory" Target="/temp" Default="/mnt/cache/temp/fileflows" Mode="rw" Description="Where temporary files will be created during the file flow process&#13;&#10;Best to put this on a cache drive or a faster ssd/nvme" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/temp/fileflows</Config>

@@ -22,7 +22,7 @@ You can setup rules like when a video file is detected, detect if it has black b
         [br] 5) In the [b]"NVIDIA_VISIBLE_DEVICES"[/b] variable, copy your [b]GPU UUID[/b] (can be found in the Unraid Nvidia Plugin)&#xD;
     </Overview>
   <Category>Productivity: Status:Beta</Category>
-  <WebUI>http://[IP]:[PORT:8585]</WebUI>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Josh5/unraid-docker-templates/master/josh5/unmanic.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>
   <ExtraParams/>

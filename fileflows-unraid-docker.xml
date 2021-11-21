@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/116225-support-reven-fileflows/</Support>
   <Project>https://github.com/revenz/FileFlows</Project>
-  <Overview>FileFlow is a app that lets you process files in a rule flow like system.&#xD;
+  <Overview>FileFlows is a app that lets you process files in a rule flow like system.&#xD;
 &#xD;
 You can setup rules like when a video file is detected, detect if it has black bars, reencode video to certain format, move file, delete original.  Or if file is greater than this size delete etc.&#xD;
 &#xD;

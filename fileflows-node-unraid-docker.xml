@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>FileFlows Node</Name>
+  <Repository>revenz/fileflows-node</Repository>
+  <Registry>https://hub.docker.com/r/revenz/fileflows-node/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/116225-support-reven-fileflows/</Support>
+  <Project>https://fileflows.com/</Project>
+  <Overview>
+  Additinal processing node for FileFlows.  See http://fileflows.com for more information
+    </Overview>
+  <Category>Productivity: Status:Beta</Category>
+  <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fileflows-node-unraid-docker.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1637398123</DateInstalled>
+  <DonateText/>
+  <DonateLink>https://www.patreon.com/revenz</DonateLink>
+  <Description>
+  Additinal processing node for FileFlows.  See http://fileflows.com for more information
+    </Description>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Value>http://tower:5000/</Value>
+      <Name>ServerUrl</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>/mnt/user/cache/fileflows/temp</Value>
+      <Name>TempPath</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="ServerUrl" Target="ServerUrl" Default="http://tower:5000/" Mode="" Description="FileFlows Server URL" Type="Variable" Display="advanced" Required="true" Mask="false">http://tower:5000/</Config>
+  <Config Name="TempPath" Target="TempPath" Default="/mnt/user/cache/fileflows/temp" Mode="" Description="Path for temporary files created " Type="Variable" Display="advanced" Required="true" Mask="false">/mnt/user/cache/fileflows/temp</Config>  
+</Container>

@@ -19,7 +19,6 @@
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fileflows-unraid-docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>
-  <ExtraParams>--runtime=nvidia</ExtraParams>
   <DonateLink>https://www.patreon.com/revenz</DonateLink>
   <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="Port used to access the WebUI.  The container uses port 5000 this can forward any port to that in the container." Type="Port" Display="always" Required="false" Mask="false">8585</Config>
   <Config Name="Data" Target="/app/Data" Default="/mnt/user/appdata/fileflows/data" Mode="rw" Description="Location of the database file, best to set this in appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fileflows/data</Config>

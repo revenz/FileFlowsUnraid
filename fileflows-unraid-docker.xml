@@ -26,6 +26,7 @@
   <Config Name="Temp Directory" Target="/temp" Default="/mnt/cache/temp/fileflows" Mode="rw" Description="Where temporary files will be created during the file flow process&#13;&#10;Best to put this on a cache drive or a faster ssd/nvme" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/temp/fileflows</Config>
   <Config Name="/media/" Target="/media/" Default="/mnt/user" Mode="rw" Description="Mapping to a folder in unRAID.   this is optional and you can add as many as you like.   " Type="Path" Display="always" Required="false" Mask="false">/mnt/user</Config>
   <Config Name="NVIDIA_VISIBLE_DEVICES" Target="NVIDIA_VISIBLE_DEVICES" Default="all" Mode="" Description="If you have multiple NVIDIA GPUs set a specific ID from the settings page" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="TZ" Target="TZ" Default="Pacific/Auckland" Mode="" Description="Container Variable: TimeZone" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>  
 </Container>

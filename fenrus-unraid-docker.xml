@@ -23,6 +23,7 @@
   <Config Name="TimeZone" Target="TZ" Default="Pacific/Auckland" Mode="" Description="TimeZone for the container refer to https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for a list of possible timezones" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>  
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="Port used to access the WebUI.  The container uses port 5000 this can forward any port to that in the container." Type="Port" Display="always" Required="false" Mask="false">3000</Config>
   <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/fenrus/data" Mode="rw" Description="Location of user configuration files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fenrus/data</Config>
-  <Config Name="Logs" Target="/app/wwroot/images" Default="/mnt/user/appdata/fenrus/images" Mode="rw" Description="Location to store user images" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fenrus/images</Config>  
+  <Config Name="Logs" Target="/app/wwwroot/images" Default="/mnt/user/appdata/fenrus/images" Mode="rw" Description="Location to store user images" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fenrus/images</Config>  
 </Container>

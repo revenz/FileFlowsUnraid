@@ -15,7 +15,7 @@
   It supports a Server and mutliple node setup, where you can have one server (with an internal processing node) and additional computers/machines as additional processing nodes.&#xD;
   For NVIDIA GPU setup see https://github.com/revenz/FileFlows/wiki/Unraid-NVIDIA-Setup
     </Overview>
-  <Category>Productivity: Status:Beta</Category>
+  <Category>Productivity</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fileflows-unraid-docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>

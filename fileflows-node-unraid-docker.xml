@@ -10,7 +10,7 @@
   <Project>https://fileflows.com/</Project>
   <Overview>Additinal processing node for FileFlows.  See http://fileflows.com for more information</Overview>
   <Category>Productivity</Category>
-  <ExtraParameters>--node</ExtraParameters>
+  <PostArgs>--node</PostArgs>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fileflows-node-unraid-docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>
   <DonateLink>https://www.patreon.com/revenz</DonateLink>

@@ -17,6 +17,7 @@
     </Overview>
   <Category>Productivity</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fileflows-unraid-docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/revenz/FileFlows/master/icon.png?raw=true</Icon>
   <DonateLink>https://www.patreon.com/revenz</DonateLink>

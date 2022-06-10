@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.fileflows.com</Support>
+  <Support>https://forum.fileflows.com</Support>
   <Project>https://fileflows.com/</Project>
   <Overview>
   FileFlows lets you process files in a rule flow like system.  &#xD;

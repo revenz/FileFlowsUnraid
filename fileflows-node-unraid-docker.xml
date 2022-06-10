@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.fileflows.com</Support>
+  <Support>https://forum.fileflows.com</Support>
   <Project>https://fileflows.com/</Project>
   <Overview>Additinal processing node for FileFlows.  See http://fileflows.com for more information</Overview>
   <Category>Productivity</Category>

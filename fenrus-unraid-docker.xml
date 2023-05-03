@@ -18,7 +18,7 @@
   <Category>Productivity</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fenrus-unraid-docker.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/revenz/Fenrus/master/icon_128.png?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/revenz/Fenrus/master/wwwroot/favicon.svg?raw=true</Icon>
   <DonateLink>https://www.patreon.com/revenz</DonateLink>
   <Config Name="TimeZone" Target="TZ" Default="Pacific/Auckland" Mode="" Description="TimeZone for the container refer to https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for a list of possible timezones" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>

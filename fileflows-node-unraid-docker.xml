@@ -20,5 +20,5 @@
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>  
   <Config Name="ServerUrl" Target="ServerUrl" Default="http://tower:5000/" Mode="" Description="FileFlows Server URL" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="NodeName" Target="NodeName" Default="DockerNode" Mode="" Description="A unique name to identify this Node instance" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="TempPath" Target="TempPath" Default="/mnt/user/cache/fileflows/temp" Mode="" Description="Path for temporary files created" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Temp Directory" Target="/temp" Default="/mnt/cache/temp/fileflows-node" Mode="rw" Description="Where temporary files will be created during the file flow process&#13;&#10;Best to put this on a cache drive or a faster ssd/nvme" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/temp/fileflows-node</Config>
 </Container>

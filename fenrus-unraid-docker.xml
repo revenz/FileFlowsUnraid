@@ -8,7 +8,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://discord.com/invite/xbYK8wFMeU</Support>
-  <Project>http://fenrus.io</Project>
+  <Project>https://github.com/revenz/Fenrus/</Project>
   <Overview>
   Fenrus is a home page / personal dashboard with smart apps.   
   This helps you manage your personal network and services.  
@@ -18,12 +18,11 @@
   <Category>Productivity</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/revenz/FileFlowsUnraid/master/fenrus-unraid-docker.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/revenz/Fenrus/master/wwwroot/favicon.svg?raw=true</Icon>
+  <Icon>https://raw.githubusercontent.com/revenz/Fenrus/master/wwwroot/fenrus.svg?raw=true</Icon>
   <DonateLink>https://www.patreon.com/revenz</DonateLink>
   <Config Name="TimeZone" Target="TZ" Default="Pacific/Auckland" Mode="" Description="TimeZone for the container refer to https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for a list of possible timezones" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>  
   <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="Port used to access the WebUI.  The container uses port 5000 this can forward any port to that in the container." Type="Port" Display="always" Required="false" Mask="false">3000</Config>
   <Config Name="Data" Target="/app/data" Default="/mnt/user/appdata/fenrus/data" Mode="rw" Description="Location of user configuration files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fenrus/data</Config>
-  <Config Name="Images" Target="/app/wwwroot/images" Default="/mnt/user/appdata/fenrus/images" Mode="rw" Description="Location to store user images" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/fenrus/images</Config>  
 </Container>

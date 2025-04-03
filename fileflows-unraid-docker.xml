@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>FileFlows</Name>
-  <Repository>revenz/fileflows</Repository>
+  <Repository>revenz/fileflows:stable</Repository>
   <Registry>https://hub.docker.com/r/revenz/fileflows/</Registry>
   <Network>bridge</Network>
   <MyIP/>
